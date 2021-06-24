@@ -1,0 +1,3409 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+ 
+}
+
+h3 {
+    font-size: 25px;
+    color: darkgray;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.adress {
+    color: rgb(85, 74, 74);
+}
+
+p {
+    font-weight: lighter;
+    text-align: center;
+}
+.logonav{
+    width: 70%;
+}
+.btn {
+    font-weight: medium;
+    font-size: 40px;
+    margin-top: 30px;
+    background-color: #fe0000;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.barra {
+    position:relative;
+    margin: 0px;
+     width: 100%;
+}
+
+.logo {
+      margin:20px;
+      padding-top: 45px;;
+}
+
+.navbar {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.salepoints {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.sucursal{
+    font-weight:600;
+}
+
+.mision {
+    text-align: center;
+}
+
+.col-sm-4 {
+text-align: center;
+}
+
+.music {
+    height: 228px;
+}
+
+.beer {
+    height: 228px;
+}
+
+.patio {
+    height: 228px;
+}
+
+.salepointsrow {
+    margin-top: 40px;
+}
+
+.logofooter {
+    width: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icons {
+
+    color: darkgray;
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+
+.fa-instagram {
+    font-size: 40px;
+}
+
+.fa-facebook {
+    font-size: 40px;
+}
+
+.fa-spotify {
+    font-size: 40px;
+
+}
+
+
+.footer {
+    margin-top: 40px;
+}
+
+.fa-whatsapp-square {
+    text-align: right;
+    font-size: 100px;
+    color: #42c553;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+/*///////////////////////////🚧🚧MEDIA QUERIES PORTRAIT🚧🚧//////////////////////////*/
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 360px) and (max-width:374px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .logonav {
+        width: 50%;
+    }
+
+
+}
+/*IPhone X*/
+@media (min-width: 375px) and (max-width:413px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 40px;
+        color: #42c553;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 6, 7, 8*/
+@media (min-width: 375px) and (max-width:413px) and (max-height: 667px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 414px) and (max-width:639px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:359px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPad*/
+@media (min-width: 768px) and (max-width:1023px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+   
+    }
+
+    h3 {
+        font-size: 20px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 30px;
+        margin:0;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .sucursal {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 18px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 70px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*Ipad Pro*/
+@media (min-width: 1024px) and (max-width:1199px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 65px;
+
+    }
+
+    .centered {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 20px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+   
+    }
+
+    h3 {
+        font-size: 25px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 30px;
+        margin:0;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .sucursal {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 25px;
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*Laptops*/
+@media (min-width: 1200px) and (max-width:1600px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 70px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 20px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+   
+    }
+
+    h3 {
+        font-size: 25px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 30px;
+        margin:0;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .sucursal {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 25px;
+    }
+
+    .img.logofooter {
+        width: 25%;
+    }
+}
+
+/*////////////////////🚧LANDSACAPE🚧//////////////////////////////*
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 640px) and (max-width:666px) and (max-height:360px){
+
+    h1 {
+        font-weight: bold;
+        font-size: 35px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 7px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone X*/
+@media (min-width: 737px) and (max-width:1023px) and (max-height:375px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 50px;
+
+    }
+
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 6, 7, 8*/
+@media (min-width: 667px) and (max-width:735px) and (max-height: 375px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 668px) and (max-width:736px) and (max-height:414px){
+
+    h1 {
+        font-weight: bold;
+        font-size: 35px;
+        
+        
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 10px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 50px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:568px) and (max-height:362px){
+
+    h1 {
+        font-weight: bold;
+        font-size: 30px;
+   }
+
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+     margin: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sucursal {
+        margin: 0;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .logonav{
+        width: 50%;
+    }
+}
+/*IPad*/
+@media (min-width: 737px) and (max-width: 1365px) and (height:768px) {
+
+    h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+  
+    }
+
+    .btn {
+        font-weight: medium;
+        font-size: 15px;
+        margin-top: 5px;
+        background-color: #fe0000;
+    }
+
+    .logo {
+        margin:20px;
+        padding-top: 0px;;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+   
+    }
+
+    h3 {
+        font-size: 20px;
+        color: darkgray;
+        align-items: center;
+        margin: 20px;
+        font-weight: normal;
+    }
+    .salepoints {
+        color: black;
+        font-size: 30px;
+        margin:0;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .sucursal {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .music {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .beer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .patio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .adress{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .logofooter {
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-spotify {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 18px;
+    }
+
+    .fa-whatsapp-square {
+        text-align: right;
+        font-size: 60px;
+        color: #42c553;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        
+    }
+}
+
+
+/*///////////////////////////🚧🚧MENU PAGE🚧🚧//////////////////////////*/
+
+
+.domis {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.sucursalnombre {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.sucursaldomi{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.domitittle{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.adressdomi {
+    font-size: 20px;
+    margin:0;
+    color: white;
+}
+
+.btndomi {
+    font-weight: medium;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: #fe0000;
+    border-radius: 8px;
+    border-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%)
+}
+
+.btndomi:hover{
+    background-color: navy;
+    border-color: transparent;
+
+}
+
+.domilink {
+    text-decoration: none;
+    color: white;
+}
+
+.domilink:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.contactdomi {
+    margin: 20px;
+    color: white;
+}
+
+
+.contactdomicel {
+    margin: 20px;
+    color: white;
+}
+
+.contactdomicel:hover {
+    color: #fe0000;
+
+}
+
+.picada {
+    position:relative;
+    margin: 0px;
+    width:2133px;
+    height: 730px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.centeredmenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.footermenu {
+    margin:0;
+}
+
+.vl {
+    border-left: 1px solid #fe0000;
+
+    margin-left: 150px;
+    text-align: center;
+
+}
+
+.logonav {
+    width: 70%;
+}
+
+/*//////////////////////////////🚧🚧MEDIA QUERIES PORTRAIT - MENU PAGE🚧🚧///////////////////////*/
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 360px) and (max-width:374px) {
+
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 10px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 8px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 20px;
+        text-align: center;
+        
+    
+    }
+
+    .musicdomi {
+        margin-top: 30px;
+    }
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domicilio {
+        margin-top: 50px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+}
+
+/*IPhone X*/
+@media (min-width: 375px) and (max-width:413px) {
+    
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .adressdomi {
+        font-size: 10px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 8px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 20px;
+        text-align: center;
+        
+    
+    }
+
+    .musicdomi {
+        margin-top: 30px;
+    }
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+    .salepointsrow{
+        margin-right: 12px ;
+        margin-left:0;
+    }
+}
+
+/*IPhone 6, 7, 8*/
+@media (min-width: 375px) and (max-width:413px) and (max-height: 667px) {
+    
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .adressdomi {
+        font-size: 10px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 8px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 20px;
+        text-align: center;
+        
+    
+    }
+
+    .musicdomi {
+        margin-top: 30px;
+    }
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domicilio {
+        margin-top: 50px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+    .salepointsrow{
+        margin-right: 12px ;
+        margin-left:0;
+    }
+
+
+}
+
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 414px) and (max-width:639px) {
+    
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 10px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 8px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 60px;
+        text-align: center;
+        
+    
+    }
+
+    .musicdomi {
+        margin-top: 30px;
+    }
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domicilio {
+        margin-top: 50px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+}
+
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:359px) {
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .adressdomi {
+        font-size: 10px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 8px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+     
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 20px;
+        text-align: center;
+        
+    
+    }
+
+    .musicdomi {
+        margin-top: 30px;
+    }
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domicilio {
+        margin-top: 50px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+    
+   
+
+}
+
+/*IPad*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 20px;
+        margin:0;
+        color: white;
+    }
+    
+    .domitittle{
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .adressdomi {
+        font-size: 15px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 15px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contactdomi {
+        margin: 10px;
+        color: white;
+    }
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+    }
+     
+    .picada {
+        position:relative;
+        margin: 0px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 80px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    .contactdomi{
+        font-size: 10px;
+    }
+    .contactdomicel{
+        font-size: 10px;
+    }
+
+    .domicilios{
+        margin-top: 150px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+}
+
+
+
+/*////////////////////🚧LANDSACAPE - MENU PAGE🚧//////////////////////////////*
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 640px) and (max-width:666px) and (max-height:360px){
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 12px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:360px;
+        width: 640px;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 60px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+}
+
+/*IPhone X*/
+@media (min-width: 737px) and (max-width:1023px) and (max-height:375px) {
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 12px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:375px;
+        width: 812px;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 80px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 0px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .domicilios {
+        margin-top: 0;
+    }
+
+}
+
+/*IPhone 6, 7, 8*/
+@media (min-width: 667px) and (max-width:735px) and (max-height: 375px) {
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 12px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:375px;
+        width: 667px;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 60px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+
+    .logofooter{
+        width: 20%;
+    }
+}
+
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 668px) and (max-width:736px) and (max-height:414px){
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 12px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:480px;
+        width: 736px;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 80px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 20px;
+    }
+
+    .musicdomi{
+        margin-top: 20px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .domicilios {
+        margin-top: 0;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+}
+
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:568px) and (max-height:362px){
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin:0;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 15px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 12px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 12px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    
+    
+    .contactdomicel {
+        margin: 10px;
+        color: white;
+        font-size: 12px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:375px;
+        width: 667px;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 60px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 15px;
+    }
+
+
+    .musicdomi{
+        margin-top: 0px;
+    }
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+
+    .logofooter{
+        width: 20%;
+    }
+
+    .domicilios{
+        margin-top: 0px;
+    }
+}
+
+/*IPad*/
+@media (min-width: 737px) and (max-width: 1365px) and (height:768px) {
+
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin-bottom: 5px;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 25px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 45px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 16px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 16px;
+        margin-bottom: 0px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 50%;
+    }
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    
+    .contactdomicel {
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:600px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 125px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 0px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .domicilios {
+        margin-top: 0;
+    }
+
+    .logofooter{
+        width:20%;
+    }
+
+}
+
+/*IPad Pro*/
+@media (min-width: 1366px) and (max-width: 6000px) and (height:1024px) {
+
+    .domis {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
+    .sucursalnombre {
+        margin-bottom: 5px;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .sucursaldomi{
+        font-size: 25px;
+        margin-top:10px;
+        color: white;
+
+    }
+    
+    .domitittle{
+        font-size: 60px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .adressdomi {
+        font-size: 28px;
+        margin:0;
+        color: white;
+    }
+    
+    .btndomi {
+        font-weight: medium;
+        font-size: 28px;
+        margin-bottom: 10px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        
+    }
+    
+    .logonav{
+        width: 100%;
+    }
+    
+    .domilink {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contactdomi {
+        margin: 10px;
+        color: white;
+        font-size: 28px;
+    }
+    
+    
+    .contactdomicel {
+        margin-top: 20px;
+        color: white;
+        font-size: 28px;
+    }
+  
+    
+    .picada {
+        position:relative;
+        margin: 0px;
+        height:800px;
+        max-width: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        object-position: bottom;
+    }
+    
+    .centeredmenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    
+    }
+    
+    .footermenu {
+        margin:0;
+    }
+    
+    .vl {
+        border-left: 1px solid #fe0000;
+        margin-left: 125px;
+        text-align: center;
+        
+    
+    }
+
+    .patiodomi {
+        margin-top: 30px;
+    }
+
+
+    .domitittle{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .domicilios {
+        margin-top: 0;
+    }
+
+    .logofooter{
+        width:20%;
+    }
+
+}
