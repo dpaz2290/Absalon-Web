@@ -3407,3 +3407,35 @@ text-align: center;
     }
 
 }
+
+/*////////////////////🚧DOMICILIOS PAGE🚧//////////////////////////////*/
+
+.hl {
+   border-top:  1px solid #fe0000;
+    width: 60%;
+   text-align: center;
+   margin: auto;
+
+}
+
+.btndomicilios {
+    font-weight: medium;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: #fe0000;
+    border-radius: 8px;
+    border-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    justify-content: center;
+    margin: auto;
+}
+
+.btndomicilios:hover{
+    background-color: navy;
+    border-color: transparent;
+}
+
+.horario {
+    margin: auto;
+    text-align: center;
+}
