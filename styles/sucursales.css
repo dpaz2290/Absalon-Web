@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+
+.logonav{
+    width: 70%;
+}
+
+.navbar {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.logofooter {
+    width: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icons {
+
+    color: darkgray;
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+
+.fa-instagram {
+    font-size: 40px;
+}
+
+.fa-facebook {
+    font-size: 40px;
+}
+
+.fa-spotify {
+    font-size: 40px;
+
+}
+
+
+.footer {
+    margin-top: 40px;
+}
+
+.fa-whatsapp-square {
+    text-align: right;
+    font-size: 100px;
+    color: #42c553;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+/***SLIDER*/
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
