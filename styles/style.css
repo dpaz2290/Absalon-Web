@@ -3409,6 +3409,9 @@ text-align: center;
 }
 
 /*////////////////////🚧DOMICILIOS PAGE🚧//////////////////////////////*/
+.structuredomicilios{
+    margin-top: 2%;
+}
 
 .hl {
    border-top:  1px solid #fe0000;
@@ -3427,7 +3430,9 @@ text-align: center;
     border-color: transparent;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
     justify-content: center;
-    margin: auto;
+    width: 20%;
+    margin-left: 30px;
+
 }
 
 .btndomiciliosdos:hover{
@@ -3580,10 +3585,6 @@ text-align: center;
               }  
 
     .domiimg {
-        width: 20%;
+        width: 40%;
 
-    }
-
-    .hidden {
-        width:25%;
     }
