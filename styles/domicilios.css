@@ -705,8 +705,366 @@
 
 }
 
-/*Laptops*/
-@media (min-width: 1200px) and (max-width:1600px) {
 
+/*////////////////////🚧LANDSACAPE🚧//////////////////////////////*
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 640px) and (max-width:666px) and (max-height:360px){
+
+    h1{
+        font-size: 30px;
+        }
+    
+        .structuredomicilios{
+            margin-top: 2%;
+        }
+        
+        .hl {
+           border-top:  1px solid #fe0000;
+            width: 60%;
+           text-align: center;
+           margin: auto;
+        
+        }
+        
+        .btndomiciliosdos {
+            font-weight: medium;
+            font-size: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            background-color: #fe0000;
+            border-radius: 8px;
+            border-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+            justify-content: center;
+            width: 20%;
+            margin-left: 30px;
+        
+        }
+        
+        .btndomiciliosdos:hover{
+            background-color: navy;
+            border-color: transparent;
+        }
+    
+        .lineas {
+            margin-top: 0;
+        }
+        
+        .horario {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    
+        .logonav {
+            width: 50%;
+        }
+        
+        /*//////////////slides////////////////*/
+        
+          
+          .carrousel {
+              position: relative;
+              margin-top: 15px;
+              margin-bottom: 30px;
+              width: 150px;
+              height: 200px;
+          }
+              
+        
+            .domiimg {
+                width: 100%;
+        
+            }
+    
+}
+/*IPhone X*/
+@media (min-width: 737px) and (max-width:1023px) and (max-height:375px) {
+
+    h1{
+        font-size: 30px;
+        }
+    
+        .structuredomicilios{
+            margin-top: 2%;
+        }
+        
+        .hl {
+           border-top:  1px solid #fe0000;
+            width: 60%;
+           text-align: center;
+           margin: auto;
+        
+        }
+        
+        .btndomiciliosdos {
+            font-weight: medium;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            background-color: #fe0000;
+            border-radius: 8px;
+            border-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+            justify-content: center;
+            width: 35%;
+            margin-left: 30px;
+        
+        }
+        
+        .btndomiciliosdos:hover{
+            background-color: navy;
+            border-color: transparent;
+        }
+    
+        .lineas {
+            margin-top: 0;
+        }
+        
+        .horario {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    
+        .logonav {
+            width: 50%;
+        }
+        
+        /*//////////////slides////////////////*/
+        
+          
+          .carrousel {
+              position: relative;
+              margin-top: 25px;
+              margin-bottom: 45px;
+              width: 150px;
+              height: 200px;
+          }
+              
+        
+            .domiimg {
+                width: 110%;
+        
+            }
+}
+/*IPhone 6, 7, 8*/
+@media (min-width: 667px) and (max-width:735px) and (max-height: 375px) {
+
+    h1{
+        font-size: 30px;
+        }
+    
+        .structuredomicilios{
+            margin-top: 2%;
+        }
+        
+        .hl {
+           border-top:  1px solid #fe0000;
+            width: 60%;
+           text-align: center;
+           margin: auto;
+        
+        }
+        
+        .btndomiciliosdos {
+            font-weight: medium;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            background-color: #fe0000;
+            border-radius: 8px;
+            border-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+            justify-content: center;
+            width: 35%;
+            margin-left: 30px;
+        
+        }
+        
+        .btndomiciliosdos:hover{
+            background-color: navy;
+            border-color: transparent;
+        }
+    
+        .lineas {
+            margin-top: 0;
+        }
+        
+        .horario {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    
+        .logonav {
+            width: 50%;
+        }
+        
+        /*//////////////slides////////////////*/
+        
+          
+          .carrousel {
+              position: relative;
+              margin-top: 25px;
+              margin-bottom: 45px;
+              width: 150px;
+              height: 200px;
+          }
+              
+        
+            .domiimg {
+                width: 100%;
+        
+            }
 
 }
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 668px) and (max-width:736px) and (max-height:414px){
+    h1{
+        font-size: 30px;
+        }
+    
+        .structuredomicilios{
+            margin-top: 2%;
+        }
+        
+        .hl {
+           border-top:  1px solid #fe0000;
+            width: 60%;
+           text-align: center;
+           margin: auto;
+        
+        }
+        
+        .btndomiciliosdos {
+            font-weight: medium;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            background-color: #fe0000;
+            border-radius: 8px;
+            border-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+            justify-content: center;
+            width: 35%;
+            margin-left: 30px;
+        
+        }
+        
+        .btndomiciliosdos:hover{
+            background-color: navy;
+            border-color: transparent;
+        }
+    
+        .lineas {
+            margin-top: 0;
+        }
+        
+        .horario {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    
+        .logonav {
+            width: 50%;
+        }
+        
+        /*//////////////slides////////////////*/
+        
+          
+          .carrousel {
+              position: relative;
+              margin-top: 25px;
+              margin-bottom: 45px;
+              width: 150px;
+              height: 200px;
+          }
+              
+        
+            .domiimg {
+                width: 100%;
+        
+            }
+   
+}
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:568px) and (max-height:362px){
+
+    h1{
+        font-size: 30px;
+        }
+    
+        .structuredomicilios{
+            margin-top: 2%;
+        }
+        
+        .hl {
+           border-top:  1px solid #fe0000;
+            width: 60%;
+           text-align: center;
+           margin: auto;
+        
+        }
+        
+        .btndomiciliosdos {
+            text-align: center;
+            font-weight: medium;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: #fe0000;
+            border-radius: 8px;
+            border-color: transparent;
+            box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+            justify-content: center;
+            width: 35%;
+            margin-left: 30px;
+        
+        }
+
+        .domilink{
+            margin: auto;
+        }
+        
+        .btndomiciliosdos:hover{
+            background-color: navy;
+            border-color: transparent;
+        }
+    
+        .lineas {
+            margin-top: 0;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .horario {
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    
+        .logonav {
+            width: 50%;
+        }
+        
+        /*//////////////slides////////////////*/
+        
+          
+          .carrousel {
+              position: relative;
+              margin-top: 25px;
+              margin-bottom: 45px;
+              width: 150px;
+              height: 200px;
+          }
+              
+        
+            .domiimg {
+                width: 100%;
+        
+            }
+}
+
