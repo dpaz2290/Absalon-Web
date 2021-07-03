@@ -9,7 +9,34 @@ h1 {
     font-size: 90px;
     text-align: center;
 }
+button {
+        font-weight: medium;
+        font-size: 25px;
+        margin-bottom: 30px;
+        background-color: #fe0000;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        justify-content: center;
+        width: 20%;
+        margin-left: 30px;
+        color: white;
 
+}
+
+button:hover{
+    background-color: navy;
+    border-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+}
 .logonav{
     width: 70%;
 }
@@ -19,6 +46,19 @@ h1 {
     font-size: 20px;
 }
 
+.vl {
+    border-left: 1px solid #fe0000;
+    text-align: center;
+}
+
+.fotopatio {
+    
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+}
 
 .logofooter {
     width: 8%;
