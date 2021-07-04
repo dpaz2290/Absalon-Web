@@ -129,7 +129,7 @@ li {
 }
 
 .datos {
-    margin-left: 25px;
+    margin: auto;
 }
 
 .horario {
@@ -138,6 +138,10 @@ li {
 
 .botones {
     margin-top: 20px;
+}
+
+.icons{
+    width: 10%;
 }
 
 /***SLIDER*/
@@ -180,3 +184,466 @@ img {vertical-align: middle;}
   background-color: #f1f1f1;
   color: black;
 }
+
+/***MEDIA QUERIES PORTRAIT/**/
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 360px) and (max-width:374px) {
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone X*/
+@media (min-width: 375px) and (max-width:413px){
+
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    h2  {
+        font-size: 22px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone 6, 7, 8*/
+@media (min-width: 375px) and (max-width:413px) and (max-height: 667px){
+
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 414px) and (max-width:639px){
+
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:359px) {
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*  LANDSCAPE*/
+
+/*Galaxy S4, S5, Note 3*/
+@media (min-width: 640px) and (max-width:666px) and (max-height:360px){
+
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+
+}
+
+/*IPhone X*/
+@media (min-width: 737px) and (max-width:1023px) and (max-height:375px){
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    h2  {
+        font-size: 22px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone 6, 7, 8*/
+@media (min-width: 667px) and (max-width:735px) and (max-height: 375px){
+
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+
+}
+
+
+/*IPhone 6+, 7+, 8+ */
+@media (min-width: 668px) and (max-width:736px) and (max-height:414px){
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
+/*IPhone 5, 5s, 5C, 5SE*/
+@media (min-width: 100px) and (max-width:568px) and (max-height:362px){
+    .logonav {
+        width: 50%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2  {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .logofooter{
+        width: 20%;
+    }
+
+
+    .datos{
+        margin-left:10px;
+    }
+}
+
